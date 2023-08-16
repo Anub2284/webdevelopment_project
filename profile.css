@@ -1,0 +1,144 @@
+*{
+    margin: auto;
+    font-family: "Gilroy";
+    padding: 0%;
+    scrollbar-width: none;
+  
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+#main{
+    width: 100%;
+   
+}
+
+@font-face{
+    font-family: "anurati";
+    src: url("./anurati_font/Anurati-Regular.otf");
+    
+}
+
+@font-face{
+    font-family: "Bebas";
+    src: url("./Bebas.ttf");
+}
+
+@font-face{
+    font-family: ELNATH;
+    src: url(./ELNATH.otf);
+}
+
+#heading{
+    width: 100%;
+    height: 100vh;
+    background-color:#091C1B;
+    display: grid;
+    place-items: center;
+}
+
+#section2{
+    width: 100%;
+    height: 30vh;
+    margin: auto;
+}
+#nav{
+    
+    width: 100%;
+    height: 5vh;
+    background-color: rgb(33, 33, 33);
+    color: rgb(137, 145, 151);
+}
+
+#nav h3{
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: center;
+    font-family: "Bebas";
+}
+
+.name{
+    font-size: 900%;
+    display: grid;
+    place-items: center;
+    font-family: "anurati";
+    letter-spacing: 20px;
+    color: #e3d5d5;
+    
+    
+}
+
+.name1{
+    font-size: 500%;
+    font-family: "ELNATH";
+    display: grid;
+    place-items: center;
+}
+
+.para2{
+    background-color:#091C1B;
+    font-size: 2rem;
+    padding: 4%;
+    text-align: center;
+    font-family: "Bebas";
+    color: #e3d5d5;
+    text-indent: 30px;
+    line-height: 60px;
+}
+
+#section2 img{
+ width: 100%;
+ color: #e3d5d5;
+ height: 60vh;
+
+}
+
+#section3{
+    width: 100%;
+    height: 40vh;
+    background-color:#091C1B;
+    display: grid;
+    place-items: center;
+    
+}
+
+
+#bottom{
+    background-color: rgb(33, 33, 33);
+}
+
+
+.socialicon{
+    color: #e3d5d5;  
+  
+   
+}
+
+.icon{
+    font-size: 2rem;
+    margin-left: 10%; 
+}
+
+
+.about{
+    font-weight: 200;
+    margin-left: 50px;
+    font-family: "Bebas";
+    color: #e3d5d5;
+}
+
+.a{
+    font-family: "bebas";
+}
+
+
+.b{
+    font-family: "bebas";
+}
+
+.c{
+    font-family: "bebas";
+}
+
